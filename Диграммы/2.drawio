@@ -1,0 +1,110 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="DFD Level 1 Game Key Purchase" id="0">
+    <mxGraphModel dx="1770" dy="2122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="customer" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;" value="Покупатель" vertex="1">
+          <mxGeometry height="80" width="160" x="80" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="payment" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;" value="Платёжная система" vertex="1">
+          <mxGeometry height="80" width="200" x="1260" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="supplier" parent="1" style="shape=rectangle;whiteSpace=wrap;html=1;" value="Поставщик ключей" vertex="1">
+          <mxGeometry height="80" width="200" x="1241" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="p1" parent="1" style="shape=rectangle;strokeWidth=2;" value="1. Поиск и выбор игры" vertex="1">
+          <mxGeometry height="100" width="260" x="290" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" parent="1" style="shape=rectangle;strokeWidth=2;" value="2. Оформление заказа" vertex="1">
+          <mxGeometry height="100" width="260" x="370" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="p3" parent="1" style="shape=rectangle;strokeWidth=2;" value="3. Обработка оплаты" vertex="1">
+          <mxGeometry height="100" width="260" x="800" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p4" parent="1" style="shape=rectangle;strokeWidth=2;" value="4. Получение ключа" vertex="1">
+          <mxGeometry height="100" width="260" x="800" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="p5" parent="1" style="shape=rectangle;strokeWidth=2;" value="5. Доставка ключа" vertex="1">
+          <mxGeometry height="100" width="260" x="390" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="en4__JtONhBpzC0WLDZu-1" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="-50" as="sourcePoint" />
+            <mxPoint x="360" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ds1" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;" value="Каталог игр" vertex="1">
+          <mxGeometry height="60" width="200" x="320" y="-110" as="geometry" />
+        </mxCell>
+        <mxCell id="ds2" parent="1" style="shape=partialRectangle;whiteSpace=wrap;html=1;" value="Заказы" vertex="1">
+          <mxGeometry height="60" width="200" x="414" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="f1" edge="1" parent="1" source="customer" style="endArrow=classic;" target="p1" value="Запрос игры">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f2" edge="1" parent="1" style="endArrow=classic;" value="Список игр">
+          <mxGeometry relative="1" x="-0.0085" y="21" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="313.0738461538461" y="130" as="sourcePoint" />
+            <mxPoint x="129.9969230769231" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f3" edge="1" parent="1" source="p1" style="endArrow=classic;" target="p2" value="Выбранная игра">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f4" edge="1" parent="1" source="customer" style="endArrow=classic;" target="p2" value="Данные заказа">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f5" edge="1" parent="1" source="p2" style="endArrow=classic;" target="p3" value="Запрос оплаты">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f6" edge="1" parent="1" style="endArrow=classic;" value="Платёжные данные">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="156" as="sourcePoint" />
+            <mxPoint x="1260" y="156" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7" edge="1" parent="1" style="endArrow=classic;" value="Статус оплаты">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1260" y="115" as="sourcePoint" />
+            <mxPoint x="1060" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f8" edge="1" parent="1" source="p3" style="endArrow=classic;" target="p4" value="Подтверждение оплаты">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f9" edge="1" parent="1" style="endArrow=classic;" value="Запрос ключа">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060.0000000000005" y="394" as="sourcePoint" />
+            <mxPoint x="1241" y="394" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f10" edge="1" parent="1" style="endArrow=classic;" value="Игровой ключ">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1241" y="364" as="sourcePoint" />
+            <mxPoint x="1060.0000000000005" y="364" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f11" edge="1" parent="1" source="p4" style="endArrow=classic;" target="p5" value="Ключ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f12" edge="1" parent="1" source="p5" style="endArrow=classic;" target="customer" value="Выдача ключа">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f13" edge="1" parent="1" source="p2" style="endArrow=classic;" target="ds2" value="Сохранение заказа">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="en4__JtONhBpzC0WLDZu-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Запрос доступных игр" vertex="1">
+          <mxGeometry height="30" width="130" x="230" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="en4__JtONhBpzC0WLDZu-4" edge="1" parent="1" source="ds1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.69;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" target="p1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="en4__JtONhBpzC0WLDZu-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Доступные игры" vertex="1">
+          <mxGeometry height="30" width="100" x="470" y="-30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
