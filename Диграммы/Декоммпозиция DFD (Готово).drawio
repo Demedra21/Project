@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="JZ8QN_S1VWs6kwvLudM4-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Запрос доступных игр" vertex="1">
-          <mxGeometry height="30" width="130" x="520" y="279.1" as="geometry" />
+          <mxGeometry height="30" width="130" x="520" y="285" as="geometry" />
         </mxCell>
         <mxCell id="JZ8QN_S1VWs6kwvLudM4-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Доступные игры" vertex="1">
           <mxGeometry height="30" width="100" x="730" y="285" as="geometry" />
@@ -153,8 +153,8 @@
         <mxCell id="JZ8QN_S1VWs6kwvLudM4-87" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Запрос игр" vertex="1">
           <mxGeometry height="30" width="80" x="470" y="430" as="geometry" />
         </mxCell>
-        <mxCell id="JZ8QN_S1VWs6kwvLudM4-98" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Ключ" vertex="1">
-          <mxGeometry height="30" width="50" x="668" y="669.1" as="geometry" />
+        <mxCell id="JZ8QN_S1VWs6kwvLudM4-98" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Игровой ключ" vertex="1">
+          <mxGeometry height="30" width="100" x="639" y="669.1" as="geometry" />
         </mxCell>
         <mxCell id="BvBLls5GXZSYS8JxzkVZ-2" edge="1" parent="1" source="BvBLls5GXZSYS8JxzkVZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="JZ8QN_S1VWs6kwvLudM4-45">
           <mxGeometry relative="1" as="geometry" />
@@ -177,8 +177,8 @@
         <mxCell id="BvBLls5GXZSYS8JxzkVZ-7" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Запрос ключа" vertex="1">
           <mxGeometry height="30" width="100" x="800" y="730" as="geometry" />
         </mxCell>
-        <mxCell id="BvBLls5GXZSYS8JxzkVZ-8" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Игрововой ключ" vertex="1">
-          <mxGeometry height="30" width="110" x="960" y="730" as="geometry" />
+        <mxCell id="BvBLls5GXZSYS8JxzkVZ-8" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Получение ключа" vertex="1">
+          <mxGeometry height="30" width="120" x="960" y="730" as="geometry" />
         </mxCell>
         <mxCell id="F-8mvdeWd9rM2wb7Unlc-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Список игр" vertex="1">
           <mxGeometry height="30" width="70" x="340" y="430" as="geometry" />
@@ -189,8 +189,8 @@
         <mxCell id="F-8mvdeWd9rM2wb7Unlc-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Сохранение заказа" vertex="1">
           <mxGeometry height="30" width="110" x="580" y="560" as="geometry" />
         </mxCell>
-        <mxCell id="F-8mvdeWd9rM2wb7Unlc-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Игровой ключ" vertex="1">
-          <mxGeometry height="30" width="80" x="1030" y="669.1" as="geometry" />
+        <mxCell id="F-8mvdeWd9rM2wb7Unlc-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Игровые ключи" vertex="1">
+          <mxGeometry height="30" width="90" x="1030" y="669.1" as="geometry" />
         </mxCell>
         <mxCell id="F-8mvdeWd9rM2wb7Unlc-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Платежные данные" vertex="1">
           <mxGeometry height="30" width="120" x="1010" y="515.1" as="geometry" />
